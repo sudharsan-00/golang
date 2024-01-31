@@ -33,5 +33,5 @@ func main() {
 		fmt.Println("y is not equal to 5")
 	default:
 		fmt.Println("none of the previous were met")
-	}w
+	}
 }

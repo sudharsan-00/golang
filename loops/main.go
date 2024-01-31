@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	for i := 0;i < 10,i++{ 
+	for i := 0;i < 10,i++ { 
 	x := rand.Intn(5)
 	fmt.Println("x is %v\t", x)
 

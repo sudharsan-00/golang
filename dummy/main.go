@@ -13,7 +13,7 @@ func main() {
 
 	m := map[string]int{
 		"james": 22,
-		"udhay": 23,
+		"jack": 23,
 	}
 	for k, v := range m {
 		fmt.Printf("key %v \t value %v\n", k, v)
