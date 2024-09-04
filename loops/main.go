@@ -2,19 +2,20 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
+	"strings"
 )
 
+// linear search
 func main() {
-	for i := 0;i < 10,i++ { 
-	x := rand.Intn(5)
-	fmt.Println("x is %v\t", x)
+	a := "Hello"
+	strSlice := strings.Split(a, "")
+	target := "l"
+	count := 0
 
-	switch  {
-	case x := 2
-		
-		
+	for i := 0; i < len(strSlice); i++ {
+		if strSlice[i] == target {
+			count += 1
+		}
 	}
-
-	}
+	fmt.Println(count)
 }
